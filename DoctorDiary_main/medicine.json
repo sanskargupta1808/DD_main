@@ -1,0 +1,48 @@
+{
+  "paracetamol": ["dolo", "crocin", "calpol", "pcm", "metacin"],
+  "ibuprofen": ["brufen", "ibugesic"],
+  "diclofenac": ["voveran", "dicloran"],
+  "aceclofenac": ["hifenac"],
+  "nimesulide": ["nimulid"],
+  
+  "amoxicillin": ["amox", "mox", "amoxil"],
+  "amoxicillin+clavulanic acid": ["augmentin", "clavam"],
+  "azithromycin": ["azee", "azi", "zithro"],
+  "cefixime": ["taxim-o", "zifi"],
+  "cefpodoxime": ["cepodem"],
+  "doxycycline": ["dox", "doxy"],
+  "ciprofloxacin": ["cipro"],
+  "levofloxacin": ["levoflox"],
+  "metronidazole": ["flagyl", "metrogyl"],
+
+  "cetirizine": ["alerid"],
+  "levocetirizine": ["lcz"],
+  "fexofenadine": ["allegra"],
+  "montelukast": ["montair"],
+  "montelukast+levocetirizine": ["monticope", "lcz-m"],
+
+  "pantoprazole": ["pantocid", "pan"],
+  "omeprazole": ["omez"],
+  "rabeprazole": ["razo"],
+  "esomeprazole": ["nexpro"],
+  "ondansetron": ["ondem", "vomikind"],
+
+  "vitamin d3": ["uprise-d3"],
+  "vitamin b complex": ["neurobion"],
+  "folic acid": ["folvite"],
+  "iron": ["autrin"],
+
+  "prednisolone": ["predmet"],
+  "dexamethasone": ["dexona"],
+
+  "metformin": ["glycomet"],
+  "glimepiride": ["amaryl"],
+  "insulin": ["actrapid", "lantus"],
+  "sitagliptin": ["januvia"],
+
+  "amlodipine": ["amlong"],
+  "telmisartan": ["telma"],
+  "atenolol": ["aten"],
+  "losartan": ["losar"],
+  "atorvastatin": ["atorva"]
+}

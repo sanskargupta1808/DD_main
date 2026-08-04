@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Uploaded audio / generated data (may contain PHI — never commit)
+uploads/
+data/
+*.wav
+*.mp3
+*.webm
+*.m4a
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Large model artifacts (multi-hundred-MB; provisioned separately)
+medicine_pipeline/output/
+*.index
+*.npy
+*.pkl
+
+# Flask API local storage (audio recordings + extraction results = PHI)
+flask_api/storage/
+
+# Large archive files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Speech-to-text files (large binaries, provisioned separately)
+s2t_files/
+
+# SQLite databases
+*.sqlite3
+*.db
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

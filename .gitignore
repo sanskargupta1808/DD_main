@@ -1,0 +1,42 @@
+# Secrets
+.env
+.env.local
+*.env
+!.env.example
+
+# Credentials
+*credential*.json
+*service-account*.json
+doctordiary-*-*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.voicerx-venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Databases and uploaded/generated data — never commit patient data
+*.sqlite3
+*.db
+Uploads/
+flask_api/storage/audio/
+flask_api/storage/results/
+flask_api/storage/sessions/
+
+# Generated ML artifacts (regenerate via medicine_pipeline/*.py — see README)
+medicine_pipeline/output/
+
+# Logs and runtime
+*.log
+.run-logs/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

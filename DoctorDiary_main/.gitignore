@@ -1,0 +1,10 @@
+.env
+*.sqlite3
+Uploads/
+__pycache__/
+*.pyc
+.venv/
+.run-logs/
+*.json.key
+doctordiary-*-*.json
+node_modules/

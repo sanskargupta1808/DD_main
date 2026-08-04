@@ -1,0 +1,24 @@
+# Core — required to run server.py (the DoctorDiary web app).
+Flask==3.0.0
+flask-cors==4.0.0
+requests==2.31.0
+python-dotenv==1.0.1
+SpeechRecognition==3.10.0
+pyttsx3==2.90
+
+# Only needed for the standalone STT.py WebSocket demo (not started by
+# start_project.py, not imported by server.py).
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Only needed for the legacy Google Cloud Speech + OpenAI voice_integration.py
+# path. server.py already imports this lazily and degrades gracefully if
+# these aren't installed (see the try/except around "from voice_integration
+# import VoiceIntegration") — skip this section if you don't use that
+# feature. pyaudio needs the PortAudio C library installed separately:
+# `brew install portaudio` (macOS), `apt install portaudio19-dev` (Linux),
+# or a prebuilt wheel on Windows (plain `pip install pyaudio` frequently
+# fails there without one).
+pyaudio==0.2.14
+google-cloud-speech==2.27.0
+openai==1.51.0
